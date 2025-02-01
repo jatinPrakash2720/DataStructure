@@ -3,12 +3,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Jan7 {
-    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int m = nums1.length;
-        int n = nums2.length;
-        int[] result = new int[m + n];
+    // public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    //     int m = nums1.length;
+    //     int n = nums2.length;
+    //     int[] result = new int[m + n];
         
-    }
+    // }
     public static int singleNumber(int[] nums) {
         Arrays.sort(nums);
         // printArray(nums);

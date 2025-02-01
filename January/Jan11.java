@@ -1,16 +1,16 @@
 public class Jan11 {
-    public static boolean canConstruct(String s, int k) {
-        // int count = 0;
-        // int n = s.length();
-        // for (int i = n - 2; i >= 0; i--) {
-        //     String tempStr = s.substring(i, n - 1);
-        //     if (isPalindrome(tempStr)) {
-        //         count++;
-        //     }
-        //     System.out.println(tempStr);
-        // }
-        // return true;
-    }
+    // public static boolean canConstruct(String s, int k) {
+    //     // int count = 0;
+    //     // int n = s.length();
+    //     // for (int i = n - 2; i >= 0; i--) {
+    //     //     String tempStr = s.substring(i, n - 1);
+    //     //     if (isPalindrome(tempStr)) {
+    //     //         count++;
+    //     //     }
+    //     //     System.out.println(tempStr);
+    //     // }
+    //     // return true;
+    // }
     //annabella
 
     // public static boolean isPalindrome(String s) {
