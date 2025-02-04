@@ -2,6 +2,26 @@ import java.util.HashSet;
 import java.util.Hashtable;
 
 public class Feb04 {
+    public static int finalValueAfterOperations(String[] operations) {
+        // int opLen = operations.length;
+        int x = 0;
+        // Character[] op = new Character[opLen];
+        for (int i = 0; i < operations.length; i++) {
+            if (operations[i].equals("++X") || operations[i].equals("X++")) {
+                x = x + 1;
+                // System.out.println(x);
+                // op[i] = 'a';
+            }
+
+            if (operations[i].equals("--X")||operations[i].equals("X--")) {
+                x = x - 1;
+                // System.out.println(x);
+                // op[i] = 'c';
+            }
+
+        }
+        return x;
+    }
     public static int uniqueMorseRepresentations(String[] words) {
         String[] morseCode = { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..",
                 "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.." };
@@ -53,6 +73,8 @@ public class Feb04 {
 
     public static void main(String[] args) {
         String[] words = { "gin", "zen", "gig", "msg" };
-        System.out.println(uniqueMorseRepresentations(words));;
+        // System.out.println(uniqueMorseRepresentations(words));
+        String[] operations = { "--X", "X++", "X++" };
+        System.out.println(finalValueAfterOperations(operations));
     }
 }
